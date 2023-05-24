@@ -1,0 +1,107 @@
+.header-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+.header-image {
+    position: relative;
+    height: 500px;
+    z-index: 10;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container {
+    width: auto;
+    height: auto;
+    margin: 100px auto;
+    background: #fff;
+    position: relative;
+}
+.container_plati{
+    width: 800px;
+    height: auto;
+    margin: 100px auto;
+    background: #fff;
+    position: relative;
+}
+.container_anunturi{
+    width: 700px;
+    height: auto;
+    margin: 10px auto;
+    background: #fff;
+    position: relative;
+}
+/*
+.container h1{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 3em;
+    text-align:center;
+    position: relative;
+    top: 0%;
+    color: red;
+    transform: translateY(-50%);
+}
+ */
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+ul {
+    margin-bottom: 24px;
+    list-style: disc inside;
+}
+ul li {
+    position: relative;
+    margin-top: 10px;
+    line-height: 1.5em;
+}
+.nav{
+    overflow: hidden;
+    background: #1E90FF;
+}
+
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    width: 100px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav a:hover{
+    color: #000;
+    background: #00BFFF;
+}
+
+.nav a.active{
+    background: #0000ff;
+}
+.text{
+    background: #fff;
+}
+h2{
+
+    color: blue;
+}
+h1{
+    font-size: 50px;
+    color: darkred;
+}
+
+.icon{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
